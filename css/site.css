@@ -3,6 +3,7 @@
     --secondary-color: #ff993b;
     --dark-color: #292929; 
     --white-color: #e7e7e7;
+    --red-color: #FF0000;
 }
 
 body {
@@ -32,7 +33,7 @@ footer .social>a{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 
@@ -65,7 +66,7 @@ main>.container {
 }
 
 .checklist> li i {
-    color: var(--secondary-color);
+    color: var(--red-color);
 }
 
 code[class*="language-"],
